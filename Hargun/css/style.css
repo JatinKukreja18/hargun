@@ -499,6 +499,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #about .about-content,#about2 .about-content {
   background: #fff;
+  margin-bottom: 20px;
 }
 
 #about .about-title,#about2 .about-title {
@@ -519,8 +520,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Services Section
 --------------------------------*/
 #services {
-  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/services-bg.jpg") fixed center center;
+  /* background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/services-bg.jpg") fixed center center; */
   background-size: cover;
+  background: #fff;
   padding: 80px 0 60px 0;
 }
 
@@ -690,12 +692,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #testimonials .profile .pic {
-  border-radius: 50%;
+  /* border-radius: 50%; */
   border: 6px solid #fff;
   margin-bottom: 15px;
   overflow: hidden;
-  height: 260px;
-  width: 260px;
+  /* height: 260px; */
+  /* width: 260px; */
 }
 
 #testimonials .profile .pic img {
