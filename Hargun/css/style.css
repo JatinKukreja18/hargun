@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-container {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.5);
   display: table-cell;
   margin: 0;
   padding: 0;
@@ -627,7 +627,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
-  height: 260px;
+  height: 250px;
   width: 100%;
   display: table;
   overflow: hidden;
@@ -635,7 +635,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio .portfolio-item .details ,#clients .portfolio-item .details {
-  height: 260px;
+  height: 250px;
   background: #fff;
   display: table-cell;
   vertical-align: middle;
@@ -929,7 +929,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-right: none;
 }
 .product-nav > .container{
-      padding: 0px 20px;
+       padding: 0px; 
     width: 100%;
 }
 .category-nav > .container{
