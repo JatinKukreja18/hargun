@@ -483,6 +483,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #009c7c;
   margin: 0 auto;
   margin-bottom: 20px;
+  margin-top: -15px;
 }
 
 /* Get Started Section
