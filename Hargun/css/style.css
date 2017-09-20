@@ -507,7 +507,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about2 .feature-container  {
   /*background: url(../img/about-img.jpg) right top no-repeat;*/
 }
-.about-content > a > img{
+.about-content >  img{
   width: 100%;
   transition: .5s;
 }
@@ -1150,4 +1150,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-position: center;
   background-size: cover;
   /* background-color: transparent; */
+}
+
+.whoweare{
+  padding: 40px 70px;
+  background: #009c7c;
+  color: #fff;
+  font-size: 20px;
+  font-family: Raleway;
+  text-align: center;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.whoweare > p{
+  width: 60%;
+  margin: auto;
+  line-height: 2;
 }
