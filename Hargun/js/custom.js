@@ -1,10 +1,14 @@
 jQuery(document).ready(function( $ ) {
 
   // Preloader
-  $(window).on('load', function() {
-    $('#preloader').delay(100).fadeOut('slow',function(){$(this).remove();});
-  });
+//   $('#hero').on('load', function() {
+//     $('#preloader').delay(100).fadeOut('slow',function(){$(this).remove();});
+//   });
 
+setTimeout(function(){
+    $('#preloader').delay(100).fadeOut('slow',function(){$(this).remove();});    
+},2000)
+    
   // Hero rotating texts
   $("#hero .rotating").Morphext({
     animation: "fadeInUp",
