@@ -7,6 +7,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@font-face {
+  font-family: cormorant;
+  src: url(../lib/CormorantGaramond-MediumItalic.ttf);
+}
 body {
   background: #fff;
   color: #666666;
@@ -86,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
   display: table;
   width: 100%;
   height: 100vh;
-  background: url(../img/wood-background.jpg) top center fixed;
+  background: url(../img/background1.jpg) top center fixed;
   background-size: cover;
 }
 
@@ -1156,7 +1161,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 40px 70px;
   background: #009c7c;
   color: #fff;
-  font-size: 20px;
+  font-size: 22px;
   font-family: Raleway;
   text-align: center;
   min-height: 200px;
@@ -1167,5 +1172,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 .whoweare > p{
   width: 60%;
   margin: auto;
+  font-size: 28px;
   line-height: 2;
+  letter-spacing: 1px;
+  font-family: cormorant;
 }
